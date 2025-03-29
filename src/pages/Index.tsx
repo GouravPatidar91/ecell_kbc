@@ -61,7 +61,7 @@ const Index = () => {
           </div>
           
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-            Welcome to QuizVerse of SCSIT
+            Welcome to Kon Banega Coder (KBC) of Ecell, SCSIT
           </h1>
           
           {userTeam ? (
