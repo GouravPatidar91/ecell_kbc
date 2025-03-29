@@ -32,7 +32,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Trophy className="w-6 h-6" />
-            <span className="font-semibold text-lg">QuizVerse</span>
+            <span className="font-semibold text-lg">KBC</span>
           </Link>
           
           <div className="flex items-center space-x-8">
