@@ -11,7 +11,7 @@ import CodeCompiler from "@/components/CodeCompiler";
 import type { QuizQuestion, QuizResult, QuizSettings } from "@/types/quiz";
 import { AlertTriangle, AlarmClock, ArrowLeft, ArrowRight, Calendar, Clock } from "lucide-react";
 
-const MAX_VISIBILITY_WARNINGS = 3;
+const MAX_VISIBILITY_WARNINGS = 2;
 
 const Quiz = () => {
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
@@ -455,7 +455,7 @@ const Quiz = () => {
                       <h3 className="text-sm font-medium text-amber-800">Important Notice</h3>
                       <p className="text-sm text-amber-700 mt-1">
                         Please do not leave this tab or window during the quiz. Switching to another tab 
-                        {MAX_VISIBILITY_WARNINGS} times will result in automatic submission of your quiz.
+                         {MAX_VISIBILITY_WARNINGS} times will result in automatic submission of your quiz.
                       </p>
                     </div>
                   </div>
